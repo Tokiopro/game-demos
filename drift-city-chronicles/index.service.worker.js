@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1775142810|1554047';
+const CACHE_VERSION = '1775145908|1620662';
 /** @type {string} */
 const CACHE_PREFIX = 'Drift City Chron-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
