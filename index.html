@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOKIO Games - Steam Demo</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0a0a; color: #e0e0e0; font-family: 'Segoe UI', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+h1 { font-size: 2rem; margin-bottom: 0.5rem; color: #fff; }
+.subtitle { color: #888; margin-bottom: 3rem; }
+.games { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1100px; padding: 0 2rem; width: 100%; }
+.card { background: #1a1a2e; border-radius: 16px; padding: 2rem; transition: transform 0.2s, box-shadow 0.2s; cursor: pointer; text-decoration: none; color: inherit; border: 1px solid #333; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 8px 32px rgba(100,100,255,0.15); border-color: #555; }
+.card h2 { font-size: 1.3rem; margin-bottom: 0.5rem; }
+.card .genre { color: #8888ff; font-size: 0.85rem; margin-bottom: 1rem; }
+.card p { color: #aaa; font-size: 0.9rem; line-height: 1.5; }
+.badge { display: inline-block; background: #2a2a4a; padding: 0.25rem 0.75rem; border-radius: 20px; font-size: 0.75rem; color: #aaa; margin-top: 1rem; }
+footer { margin-top: 3rem; color: #555; font-size: 0.8rem; padding: 2rem; }
+</style>
+</head>
+<body>
+<h1>TOKIO Games</h1>
+<p class="subtitle">Steam Demo Builds</p>
+<div class="games">
+  <a class="card" href="phantom-cafe/">
+    <h2>Phantom Cafe</h2>
+    <div class="genre">Visual Novel + Cafe Management</div>
+    <p>幽霊が見える主人公が東南アジアの古い街でカフェを営みながら、幽霊の未練を解決するストーリー。</p>
+    <span class="badge">Godot 4.3+ / 2D</span>
+  </a>
+  <a class="card" href="moonlit-bonds/">
+    <h2>Moonlit Bonds</h2>
+    <div class="genre">Pixel Art RPG + Monster Collection</div>
+    <p>夜にだけ現れる「月霊」を集めながら、ターン制バトルとNPC関係構築を楽しむRPG。</p>
+    <span class="badge">Godot 4.3+ / 2D</span>
+  </a>
+  <a class="card" href="drift-city-chronicles/">
+    <h2>Drift City Chronicles</h2>
+    <div class="genre">3D Action RPG + Delivery</div>
+    <p>東南アジアのメガシティでバイク配達員として働きながら、裏社会のストーリーに巻き込まれるアクションRPG。</p>
+    <span class="badge">Godot 4.3+ / 3D</span>
+  </a>
+</div>
+<footer>TOKIO Partner Inc. - Internal Testing</footer>
+</body>
+</html>
